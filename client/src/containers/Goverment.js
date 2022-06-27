@@ -1,13 +1,14 @@
+import GovermentSiteBanner from "../components/GovermentSiteBanner";
 import Header from "../components/Header";
 import RelatedSiteBanner from "../components/RelatedSiteBanner";
 
-const PlusSites = () => {
+const Goverment = () => {
     return (
         <>
             <Header />
-            <RelatedSiteBanner />
+            <GovermentSiteBanner />
         </>
     );
 }
 
-export default PlusSites;
+export default Goverment;

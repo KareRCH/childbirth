@@ -1,13 +1,13 @@
 import Header from "../components/Header";
-import Info from "../components/Info";
+import Map from "../components/Map";
 
-const Main = () => {
+const MapLinker = () => {
     return (
         <>
             <Header />
-            <Info />
+            <Map />
         </>
     );
 }
 
-export default Main;
+export default MapLinker;
