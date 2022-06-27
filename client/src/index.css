@@ -1,13 +1,141 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+	font-family: 'SimKyungha';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SimKyungha.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: 'GmarketSansBold';
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #132B38;
+	padding: 8px 12px;
+}
+
+.navbar_logo {
+	font-size: 30px;
+	color: white;
+}
+
+.navbar_logo i {
+	color: #d49466;
+}
+
+.navbar_menu {
+	display: flex;
+	flex-wrap: nowrap;
+	list-style: none;
+	padding-left: 0;
+}
+
+.navbar_menu li {
+	padding: 8px 12px;
+}
+
+.navbar_menu li:hover {
+	background-color: #d49466;
+	border-radius: 4px;
+}
+.navbar_icons {
+	list-style: none;
+	color: white;
+	display:flex;
+}
+
+.navbar_icons li {
+	padding: 8px 12px;
+}
+a { 
+	text-decoration:none 
+} 
+
+
+h1 {
+	font-family:'SimKyungha';
+}
+
+
+
+.map {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.map-ui {
+	position: relative;
+}
+
+.map-ui img {
+	width: 800px;
+	height: 600px;
+}
+
+button {
+	width:120px;
+	height:40px;
+	background-color: #004fff;
+	color: white;
+	box-shadow: 0 4px 16px rgba(0, 79, 255, 0.3);
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 20px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+button:nth-child(2) {
+	top: 180px;
+	left: 180px;
+}
+
+button:nth-child(3) {
+	top: 380px;
+	left: 190px;
+}
+
+button:nth-child(4) {
+	top: 390px;
+	left: 350px;
+}
+
+button:nth-child(5) {
+	top: 300px;
+	left: 500px;
+}
+
+button:nth-child(6) {
+	top: 160px;
+	left: 420px;
+}
+
+button:focus{
+	outline: 0;
+}
+
+button:hover{
+	background-color: rgba(0, 79, 255, 0.3);
+	cursor: pointer;
+	cursor: pinter;
+	box-shadow: 0 2px 4px rgba(0, 79, 255, 0.3);
 }
