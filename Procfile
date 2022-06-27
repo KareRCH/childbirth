@@ -1,0 +1,1 @@
+web: cd server && npm install rimraf && npm run start:prod
