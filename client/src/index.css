@@ -12,9 +12,18 @@
     font-style: normal;
 }
 
+@font-face {
+	font-family: 'S-CoreDream-3Light';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff%27') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 body {
 	margin: 0;
-	font-family: 'GmarketSansBold';
+	font-family:  'Noto Sans KR', sans-serif;
 }
 
 a {
@@ -25,37 +34,61 @@ a {
 .navbar {
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #132B38;
-	padding: 8px 12px;
 }
 
 .navbar_logo {
+	width: 100%;
 	font-size: 30px;
 	color: white;
+	background-color: #fff8dc;
+	padding-top: 12px;
 }
 
-.navbar_logo i {
-	color: #d49466;
-	margin-right: 10px;
+.navbar_logo img {
+	height: 130px;
 }
 
 .navbar_menu {
 	display: flex;
 	flex-wrap: nowrap;
 	list-style: none;
+	justify-content: center;
 	padding-left: 0;
 }
 
+.navbar_menu ul {
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+}
+
 .navbar_menu li {
-	padding: 8px 12px;
+	color: black;
+	width: 200px;
+	padding: 12px 16px;
+	border: 1px solid #eaeaea;
+	border-radius: 10px;
+}
+
+.navbar_menu a {
+	color: inherit;
+	font-size: 1.5em;
 }
 
 .navbar_menu li:hover {
 	background-color: #d49466;
 	border-radius: 4px;
+	color: white;
 }
+
+.navbar .menu_wrap {
+	width: 100%;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+}
+
 .navbar_icons {
 	list-style: none;
 	color: white;
@@ -70,11 +103,9 @@ a {
 	text-decoration:none 
 } 
 
-
 h1 {
-	font-family:'SimKyungha';
+	font-family:'Noto Sans KR', sans-serif;
 }
-
 
 .map {
 	display: flex;
@@ -195,7 +226,39 @@ button:hover{
 	transition-duration: 1s;
 }
 
+.RelatedSiteBanner .bannerWrap .serviceBox:nth-child(1) a {
+	background-image: url("img/free-icon-watching-tv-1397204.png");
+}
+
+.RelatedSiteBanner .bannerWrap .serviceBox:nth-child(2) a {
+	background-image: url("img/premium-icon-family-3677029.png");
+}
+
+.RelatedSiteBanner .bannerWrap .serviceBox:nth-child(3) a {
+	background-image: url("img/free-icon-medicine.png");
+}
+
+.RelatedSiteBanner .bannerWrap .serviceBox:nth-child(4) a {
+	background-image: url("img/free-icon-customer-service-agent-2776451.png");
+}
+
+.RelatedSiteBanner .bannerWrap .serviceBox:nth-child(5) a {
+	background-image: url("img/free-icon-mother-6381754.png");
+}
+
 .bannerWrap .serviceBox a:hover {
 	box-shadow: 1px 1px 20px #ddd;
 	transition-duration: 1s;
+}
+
+.GovermentSiteBanner .bannerWrap .serviceBox:nth-child(1) a {
+	background-image: url("img/free-icon-happiness-1581700.png");
+}
+
+.GovermentSiteBanner .bannerWrap .serviceBox:nth-child(2) a {
+	background-image: url("img/premium-icon-family-3097951_1.png");
+}
+
+.GovermentSiteBanner .bannerWrap .serviceBox:nth-child(3) a {
+	background-image: url("img/free-icon-maternity-1692190.png");
 }
