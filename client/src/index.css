@@ -192,4 +192,10 @@ button:hover{
 	background-position: calc(100% - 31px) 100%;
 	background-repeat: no-repeat;
 	background-color: #fff;
+	transition-duration: 1s;
+}
+
+.bannerWrap .serviceBox a:hover {
+	box-shadow: 1px 1px 20px #ddd;
+	transition-duration: 1s;
 }
