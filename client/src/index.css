@@ -301,7 +301,7 @@ h1 {
 .slider .item li {
 	text-align: left;
 	font-size:larger;
-	text-shadow: 0px 0px 3px #ececec;
+	text-shadow: 0px 0px 20px #ececec;
 	font-family: 'Noto Sans KR', sans-serif;
 	color: #1c1c1c;
 }
