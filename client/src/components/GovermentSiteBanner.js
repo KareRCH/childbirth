@@ -16,7 +16,7 @@ const GovermentSiteBanner = () => {
                 </div>
                 <div className="serviceBox">
                     <a href="https://www.gov.kr/portal/rcvfvrSvc/dtlEx/PTR000050390?administOrgCd=3023000000" target="_blank" rel="noreferrer" title="새창열림">
-                        <h2>산모, 신생아 건강관리 지원</h2>
+                        <h2>산모, 신생아<br/>건강관리 지원</h2>
                         <p>출산가정에 건강관리사 파견해 산후 관리 지원</p>
                     </a>
                 </div>

@@ -8,16 +8,24 @@ const Header = () => {
         <nav className="navbar">
             <div className="navbar_logo">
                 <Link to='/'>
-                    <img src={logo} />
+                    <img src={logo} alt="위드케어"/>
                 </Link>
             </div>
             <div className="menu_wrap">
                 <div className="menu_inner_wrap">
                     <ul className="navbar_menu">
-                        <li><Link to="/goverment">중앙정책</Link></li>
-                        <li><Link to="/maplinker">지역구정책</Link></li>
-                        <li><Link to="/plussites">관련사이트</Link></li>
-                        <li><a href="https://linc.hannam.ac.kr/main.do" target="_blank" rel="noreferrer">문의</a></li>
+                        <li><Link to="/goverment">
+                            <p>중앙정책</p>
+                        </Link></li>
+                        <li><Link to="/maplinker">
+                            <p>지역구정책</p>
+                        </Link></li>
+                        <li><Link to="/plussites">
+                            <p>관련사이트</p>
+                        </Link></li>
+                        <li><a href="https://linc.hannam.ac.kr/main.do" target="_blank" rel="noreferrer">
+                            <p>문의</p>
+                        </a></li>
                     </ul>
                 </div>
             </div>
