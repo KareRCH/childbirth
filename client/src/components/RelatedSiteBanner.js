@@ -1,6 +1,7 @@
 const RelatedSiteBanner = () => {
     return (
         <div className="RelatedSiteBanner">
+            <h1 className="banner-head">관련사이트</h1>
             <div className="bannerWrap">
                 <div className="serviceBox">
                     <a href="https://www.youtube.com/user/mothersafe/videos" target="_blank" rel="noreferrer" title="새창열림">

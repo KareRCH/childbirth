@@ -37,6 +37,7 @@ a {
 
 ul {
 	list-style: none;
+	padding-inline-start: 0;
 }
 
 .navbar {
@@ -76,10 +77,10 @@ ul {
 .navbar_menu a {
 	float: left;
 	color: black;
-	width: 200px;
+	width: 13vw;
 	padding: 12px 16px;
 	border: 1px solid #eaeaea;
-	font-size: 1.5em;
+	font-size: 1.5vw;
 }
 
 .navbar_menu a:hover {
@@ -195,8 +196,8 @@ button:hover{
 	font-size: x-large;
 }
 
-.RelatedSiteBanner, .GovermentSiteBanner, .MainSiteBanner {
-	margin-top: 100px;
+.RelatedSiteBanner, .GovermentSiteBanner, .MainSiteBanner, .Gu {
+	margin-top: 60px;
 }
 
 .RelatedSiteBanner * {
@@ -209,6 +210,10 @@ button:hover{
 
 .MainSiteBanner * {
 	box-sizing: border-box;
+}
+
+.banner-head {
+	margin-block-end: 2em;
 }
 
 .bannerWrap {
@@ -244,7 +249,7 @@ button:hover{
 }
 
 .RelatedSiteBanner .bannerWrap .serviceBox:nth-child(1) a {
-	background-image: url("img/free-icon-watching-tv-1397204.png");
+	background-image: url("img/main-icon-02.png");
 }
 
 .RelatedSiteBanner .bannerWrap .serviceBox:nth-child(2) a {
@@ -278,6 +283,22 @@ button:hover{
 
 .GovermentSiteBanner .bannerWrap .serviceBox:nth-child(3) a {
 	background-image: url("img/free-icon-maternity-1692190.png");
+}
+
+.MainSiteBanner .bannerWrap .serviceBox:nth-child(1) a {
+	background-image: url("img/main-icon-05.png");
+}
+
+.MainSiteBanner .bannerWrap .serviceBox:nth-child(2) a {
+	background-image: url("img/main-icon-01.png");
+}
+
+.MainSiteBanner .bannerWrap .serviceBox:nth-child(3) a {
+	background-image: url("img/main-icon-04.png");
+}
+
+.MainSiteBanner .bannerWrap .serviceBox:nth-child(4) a {
+	background-image: url("img/main-icon-03.png");
 }
 
 .IntroduceSlider .slider .item {
@@ -339,6 +360,61 @@ button:hover{
 	text-align: center;
 	font-weight: 700;
 	font-size: 40px;
+}
+
+.Gu p {
+	color: black;
+	margin-block-start: 0.6vw;
+	margin-block-end: 0.6vw;
+	font-size: 1.2vw;
+}
+
+.Gu .menu-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.Gu .menu-list {
+	display: flex;
+	justify-content: center;
+}
+
+.Gu .menu-list a {
+	float: left;
+	font-size: 20px;
+	width: 15vw;
+	height: 100%;
+	border: 1px solid #eaeaea;
+}
+
+.Gu .menu-list .active {
+	background-color: #eec6a9;
+}
+
+.Gu .menu-list .active p {
+	color: white;
+}
+
+.Gu .content-wrap {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Gu .content-list {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.Gu .content-list {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 .Footer .blank {

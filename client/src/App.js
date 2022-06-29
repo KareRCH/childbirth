@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/plussites" element={<PlusSites />}/>
-          <Route path="/maplinker" element={<MapLinker />}/>
+          <Route path="/maplinker/:gu" element={<MapLinker />}/>
           <Route path="/goverment" element={<Goverment />}/>
         </Routes>
       </Router>

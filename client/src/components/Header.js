@@ -17,7 +17,7 @@ const Header = () => {
                         <li><Link to="/goverment">
                             <p>중앙정책</p>
                         </Link></li>
-                        <li><Link to="/maplinker">
+                        <li><Link to="/maplinker/1">
                             <p>지역구정책</p>
                         </Link></li>
                         <li><Link to="/plussites">

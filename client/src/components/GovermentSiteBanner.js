@@ -1,6 +1,7 @@
 const GovermentSiteBanner = () => {
     return (
         <div className="GovermentSiteBanner">
+            <h1 className="banner-head">정부정책</h1>
             <div className="bannerWrap">
                 <div className="serviceBox">
                     <a href="https://www.gov.kr/portal/rcvfvrSvc/dtlEx/174000000029?administOrgCd=3023000000" target="_blank" rel="noreferrer" title="새창열림">
