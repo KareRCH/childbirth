@@ -1,7 +1,7 @@
 const MainSiteBanner = () => {
     return (
         <div className="MainSiteBanner">
-            <h1 className="banner-head">유용한 사이트</h1>
+            <h1 className="banner-head">추천 사이트</h1>
             <div className="bannerWrap">
                 <div className="serviceBox">
                     <a href="https://www.socialservice.or.kr:444/user/svcsrch/supply/supplyList.do" target="_blank" rel="noreferrer" title="새창열림">
