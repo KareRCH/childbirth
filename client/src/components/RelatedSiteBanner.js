@@ -16,7 +16,7 @@ const RelatedSiteBanner = () => {
                     </a>
                 </div>
                 <div className="serviceBox">
-                    <a href="nip.cdc.go.kr" target="_blank" rel="noreferrer" title="새창열림">
+                    <a href="https://nip.kdca.go.kr/irgd/index.html" target="_blank" rel="noreferrer" title="새창열림">
                         <h2>질병관리본부<br/>예방접종 행정지원</h2>
                         <p>예방접종 관련 안내 서비스 제공</p>
                     </a>
