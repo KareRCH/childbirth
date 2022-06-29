@@ -11,7 +11,7 @@ const RelatedSiteBanner = () => {
                 </div>
                 <div className="serviceBox">
                     <a href="http://daejeon.childcare.go.kr/ccef/main.jsp" target="_blank" rel="noreferrer" title="새창열림">
-                        <h2>대전시육아종합지원센터</h2>
+                        <h2>대전시 육아<br/>종합지원센터</h2>
                         <p>지역사회 내 어린이집 지원과 보육서비스 제공 등의 육아서비스 제공</p>
                     </a>
                 </div>
@@ -23,13 +23,13 @@ const RelatedSiteBanner = () => {
                 </div>
                 <div className="serviceBox">
                     <a href="http://www.mothersafe.or.kr/" target="_blank" rel="noreferrer" title="새창열림">
-                        <h2>한국마더세이프<br/>전문상담센터</h2>
+                        <h2>한국 마더 세이프<br/>전문상담센터</h2>
                         <p>임신 중 안전한 약물 사용법 및 무료 전문 상담</p>
                     </a>
                 </div>
                 <div className="serviceBox">
                     <a href="http://www.shjw.or.kr/" target="_blank" rel="noreferrer" title="새창열림">
-                        <h2>한국산후조리원협회</h2>
+                        <h2>한국 산후 조리원 협회</h2>
                         <p>전국산후조리원이용 안내</p>
                     </a>
                 </div>

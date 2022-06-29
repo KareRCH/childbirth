@@ -5,7 +5,7 @@ const GovermentSiteBanner = () => {
             <div className="bannerWrap">
                 <div className="serviceBox">
                     <a href="https://www.gov.kr/portal/rcvfvrSvc/dtlEx/174000000029?administOrgCd=3023000000" target="_blank" rel="noreferrer" title="새창열림">
-                        <h2>행복출산원스톱서비스</h2>
+                        <h2>행복 출산 원스톱 서비스</h2>
                         <p>출산가정에게 전국과 지자체 출산 및 양육관련 서비스 통합 안내 및 원스톱 서비스 제공</p>
                     </a>
                 </div>
