@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Map from "../components/Map";
 
@@ -6,6 +7,7 @@ const MapLinker = () => {
         <>
             <Header />
             <Map />
+            <Footer />
         </>
     );
 }

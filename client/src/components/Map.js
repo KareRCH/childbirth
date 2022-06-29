@@ -18,6 +18,7 @@ const Map = () => {
             case "Daedeok":
                 window.open("https://www.daedeok.go.kr/dpt/goContents.do?link=/dpt/dpt06/DPT06020201&menuId=DPT06020201");
             break;
+            default:
         }
     }
 
