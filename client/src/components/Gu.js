@@ -1,9 +1,12 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import axios from 'axios/index';
+import Parser from 'html-react-parser';
 
 const Gu = () => {
     const ref = useRef(null);
-    let refItem = useRef(null);
+    const [data, setData] = useState({});
+    const [parsedData, setParsedData] = useState({});
     let params  = useParams();
 
     useEffect(() => {
@@ -14,14 +17,34 @@ const Gu = () => {
             return;
 
         for(let i = 0; i < ref.current.children.length; i++) {
-            refItem = ref.current.children[i].firstChild;
+            let refItem = ref.current.children[i].firstChild;
             if (parseInt(params.gu) === i+1)
                 refItem.className = "active";
             else
                 refItem.className = "";
         }
-        
-    }, [params])
+
+        getData();
+    }, [params]);
+
+    async function getData() {
+        await axios.get("/datas/guData.json")
+        .then(table => {
+            for(let i = 0; i < table.data.guList.length; i++) {
+                if (parseInt(params.gu) === i+1) {
+                    setData(table.data.guList[i]);
+
+                    setParsedData({
+                        contentGu: Parser(table.data.guList[i].contentGu),
+                        contentBogeon: Parser(table.data.guList[i].contentBogeon)
+                    })
+                    break;
+                }
+            }
+        }).catch(() => {
+            console.log("Data load failed.");
+        });
+    }
 
     function handleClick(gu) {
         switch(gu) {
@@ -46,7 +69,7 @@ const Gu = () => {
 
     return (
         <div className="Gu">
-            <h1>대전 지역구 지원 제도</h1>
+            <h1 className="banner-head">대전 지역구 지원 제도</h1>
             <div className='menu-wrap'>
                 <div className="menu-inner-wrap">
                     <ul className="menu-list" ref={ref}>
@@ -70,11 +93,35 @@ const Gu = () => {
             </div>
             <div className="content-wrap">
                 <div className="content-list">
-                    <div className="content1">
-                        <img src="" alt="보건소"/>
+                    <div className="content content1">
+                        <div>
+                            <img src={data.srcGu} alt="구청"/>
+                            <button type='button' onClick={() => window.open(data.linkGu)}>자세히보기</button>
+                        </div>
+                        <ul>
+                            {
+                                parsedData ? (
+                                    parsedData.contentGu
+                                ) : ( 
+                                    "" 
+                                )
+                            }
+                        </ul>
                     </div>
-                    <div className="content2">
-                        
+                    <div className="content content2">
+                        <div>
+                            <img src={data.srcBogeon} alt="보건소"/>
+                            <button type='button' onClick={() => window.open(data.linkBogeon)}>자세히보기</button>
+                        </div>
+                        <ul>
+                            {
+                                parsedData ? (
+                                    parsedData.contentBogeon
+                                ) : ( 
+                                    "" 
+                                )
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,49 @@
+{
+    "guList": [
+        {
+            "name": "yuseong",
+            "srcGu" : "/img/emblem-yuseong.png",
+            "srcBogeon" : "/img/public_health-yuseong.png",
+            "contentGu": "<li>다자녀가정 지원</li><li>대전형 양육기본수당 (매월 30만원/생후36개월까지)</li><li>첫만남 이용권(200만원/1회 지급)</li><li>친환경 농산물 꾸러미</li><li>아동수당</li><li>자세한 사항은 유성구청 홈페이지에서 확인 바랍니다.</li>",
+            "contentBogeon": "<li>임산부 등록관리</li><li>영유아 건강검진 및 아동실명예방</li><li>선청성대사이상검사 및 환아 의료비 지원</li><li>난임부부시술비 지원</li><li>신생아 청각선별검사</li><li>청소년 산모 임신·출산 의료비 지원</li><li>미숙아 및 선청성 이상아 등록관리 및 의료비 지원</li><li>고위험 임산부 의료비 지원</li><li>희귀난치성질환자 의료비 지원</li><li>저소득층 기저귀 조제분유 지원</li><li>로타바이러스 예방접종 지원</li><li>영양플러스사업(영양교육 및 상담, 필수보충식품 패키지 지원)</li>",
+            "linkGu": "https://www.yuseong.go.kr/kor/sub07_02_02_02.do",
+            "linkBogeon": "https://www.yuseong.go.kr/health/sub03_03_01.do"
+        },
+        {
+            "name": "daedeok",
+            "srcGu" : "/img/emblem-daedeok.png",
+            "srcBogeon" : "/img/public_health-daedeok.png",
+            "contentGu": "<li>보육료 및 양육수당 지원</li><li>출산장려금 30만원/1회성</li><li>대전형 양육기본수당(매월 30만원/생후36개월까지)</li><li>첫만남 이용권(200만원/1회 지급)</li><li>아동수당</li><li>친환경 농산물 꾸러미</li><li>자세한 사항은 대덕구청 홈페이지에서 확인 바랍니다.</li>",
+            "contentBogeon": "<li>영유아 건강검진</li><li>산모·신생아도우미지원</li><li>임산부등록 건강관리</li><li>선천성 난청 검사 및 보청기 지원</li><li>영양플러스사업(영양교육 및 상담, 필수보충식품 패키지 지원)</li><li>저소득층 기저귀 조제분유 지원</li><li>맘편한 임신 통합제공 서비스</li><li>난임부부시술비 지원</li><li>청소년산모 임신·출산 의료비 지원</li><li>선청성대사이상검사 및 환아 의료비 지원</li><li>희귀난치성질환자 의료비 지원</li><li>고위험 임산부 의료비 지원</li><li>로타바이러스 예방접종 지원</li>",
+            "linkGu": "https://www.daedeok.go.kr/dpt/goContents.do?link=/dpt/dpt06/DPT06020204&menuId=DPT06020204",
+            "linkBogeon": "https://www.daedeok.go.kr/chc/goContents.do?link=/chc/chc02/CHC020401&menuId=CHC020401"
+        },
+        {
+            "name": "seo",
+            "srcGu": "/img/emblem-seo.png",
+            "srcBogeon": "/img/public_health-seo.png",
+            "contentGu": "<li>서구 출산지원금(30만원/1회 지급)</li><li>친환경 농산물 꾸러미</li><li>대전형 양육기본수당(매월 30만원/생후36개월까지)</li><li>첫만남 이용권(200만원/1회 지급)</li><li>임산부 우대업소</li><li>아동수당</li><li>자세한 사항은 서구청 홈페이지에서 확인 바랍니다.</li>",
+            "contentBogeon": "<li>임산부 건강관리((택배서비스, 산후건강관리, 유축기 대여))</li><li>모유수유클리닉</li><li>산모·신생아 건강관리 지원사업</li><li>저소득층 기저귀/조제분유 지원</li><li>영유아 건강검진</li><li>신생아 선청성 난청검사 및 보청기 지원</li><li>미숙아 및 선청성이상아 의료비 지원</li><li>선천성대사이상 검사 및 환아관리</li><li>난임부부 시술비 지원</li><li>청소년 산모 임신·출산 의료비 지원</li><li>고위험임산부의료비 지원</li><li>로타바이러스 예방접종비 지원</li><li>영양플러스사업(영양교육 및 상담, 필수보충식품 패키지 지원)</li>",
+            "linkGu": "https://www.seogu.go.kr/sorg/content.do?mnucd=SGMENU0900032",
+            "linkBogeon": "https://www.seogu.go.kr/sorg/content.do?mnucd=SGMENU0800103"
+        },
+        {
+            "name": "jung",
+            "srcGu" : "/img/emblem-jung.png",
+            "srcBogeon" : "/img/public_health-jung.png",
+            "contentGu": "<li>아이돌봄지원</li><li>출산장려금 양육기본수당(매월 30만원/생후36개월까지)</li><li>첫만남이용권(200만원/1회 지급)</li><li>친환경 농산물 꾸러미</li><li>아동수당</li><li>자세한 사항은 중구청 홈페이지에서 확인 바랍니다.</li>",
+            "contentBogeon": "<li>- 임산부 등록관리</li><li>모유수유클리닉</li><li>산모·신생아 건강관리사 지원</li><li>영유아 건강검진</li><li>B형간형 주산기감염 예방</li><li>저소득층 기저귀 조제분유 지원</li><li>난임부부시술비 지원</li><li>신생아 청각선별검사</li><li>청소년산모 임신·출산 의료비 지원</li><li>신생아 청각선별검사</li><li>미숙아 및 선청성이상아 등록관리 및 의료비 지원</li><li>고위험 임산부 의료비 지원</li><li>선청성대사이상검사 및 환아관리</li><li>로타바이러스 예방접종 지원</li><li>영양플러스사업(영양교육 및 상담, 필수보충식품 패키지 지원)</li>",
+            "linkGu": "https://www.daejeon.go.kr/drh/DrhContentsHtmlView.do?menuSeq=3148",
+            "linkBogeon": "https://www.djjunggu.go.kr/health/sub04_07_01.do"
+        },
+        {
+            "name": "dong",
+            "srcGu" : "/img/emblem-dong.png",
+            "srcBogeon" : "/img/public_health-dong.png",
+            "contentGu": "<li>친환경 농산물 꾸러미</li><li>아동수당</li><li>첫만남 이용권(200만원/1회 지급)</li><li>대전형 양육기본수당(매월 30만원/생후36개월까지)</li><li>자세한 사항은 동구청 홈페이지에서 확인 바랍니다.</li>",
+            "contentBogeon": "<li>임산부 건강관리</li><li>모유수유클리닉</li><li>산모·신생아 건강관리 지원</li><li>저소득층 기저귀/조제분유 지원</li><li>영유아 건강검진</li><li>신생아 선청성 난청검사 및 보청기 지원</li><li>미숙아 및 선청성이상아 의료비 지원</li><li>선천성대사이상 검사 및 환아관리</li><li>난임부부 시술비 지원</li><li>청소년 산모 임신·출산 의료비 지원</li><li>고위험임산부의료비 지원</li><li>로타바이러스 예방접종비 지원</li><li>영양플러스사업(영양교육 및 상담, 필수보충식품 패키지 지원)</li>",
+            "linkGu": "https://www.donggu.go.kr/dg/kor/contents/111",
+            "linkBogeon": "https://www.donggu.go.kr/dg/kor/contents/301"
+        }
+    ]
+}
