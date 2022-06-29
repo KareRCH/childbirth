@@ -195,7 +195,7 @@ button:hover{
 	font-size: x-large;
 }
 
-.RelatedSiteBanner, .GovermentSiteBanner {
+.RelatedSiteBanner, .GovermentSiteBanner, .MainSiteBanner {
 	margin-top: 100px;
 }
 
@@ -204,6 +204,10 @@ button:hover{
 }
 
 .GovermentSiteBanner * {
+	box-sizing: border-box;
+}
+
+.MainSiteBanner * {
 	box-sizing: border-box;
 }
 
@@ -304,11 +308,11 @@ button:hover{
 }
 
 .slider .slide2 {
-	background: url("img/pexels-abdullah-ghatasheh-1631677.jpg") no-repeat center center;
+	background: url("img/slide-image-02.png") no-repeat center center;
 }
 
 .slider .slide3 {
-	background: url("img/pexels-eberhard-grossgasteiger-844297.jpg") no-repeat center center;
+	background: url("img/slide-image-03.png") no-repeat center center;
 }
 
 .slider .item {
@@ -327,11 +331,11 @@ button:hover{
 	color: #1c1c1c;
 }
 
-.slider .item li:nth-child(-n+5) {
+.slider .item li {
 	text-align: left;
 }
 
-.slider .item li:nth-child(1) {
+.slider .item .slide-head {
 	text-align: center;
 	font-weight: 700;
 	font-size: 40px;
