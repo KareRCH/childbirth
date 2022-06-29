@@ -2,8 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const IntroduceSlider = () => {
     const ref = useRef(null);
-    const [currentIndex, setCurrentIndex] = useState(0);
-    const [time, setTime] = useState(1);
+    const [currentIndex, setCurrentIndex] = useState(1);
 
     useEffect(() => {
         
@@ -26,9 +25,7 @@ const IntroduceSlider = () => {
             } else {
                 setCurrentIndex(currentIndex + 1);
             }
-        }, time);
-
-        setTime(6000);
+        }, 6000);
 
         return () => {
             clearInterval(interval);
